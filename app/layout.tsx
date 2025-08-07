@@ -16,6 +16,22 @@ const geistMono = Geist_Mono({
 export const metadata: Metadata = {
 	title: "miscalc",
 	description: "Calculate missing macronutrient",
+	openGraph: {
+		title: "miscalc",
+		description: "Calculate missing macronutrient",
+		url: "https://miscalc.ixtj.dev",
+		siteName: "miscalc",
+		images: [
+			{
+				url: "/preview.png",
+				width: 750,
+				height: 638,
+				alt: "miscalc - Calculate missing macronutrient",
+			},
+		],
+		locale: "en_US",
+		type: "website",
+	},
 };
 
 export default function RootLayout({
